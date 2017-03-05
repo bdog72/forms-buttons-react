@@ -31,6 +31,13 @@ module.exports = React.createClass({
         >
           Amazing
         </button>
+        <button
+          name='button-3'
+          value='bdoggy'
+          onClick={this.onButtonClick}
+        >
+          bdoggy
+        </button>
       </div>
     );
   },

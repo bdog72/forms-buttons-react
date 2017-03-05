@@ -21,6 +21,7 @@ module.exports = React.createClass({
             placeholder='Name'
             ref='name'
           />
+          <input type='submit' />
 
           <input type='submit' />
         </form>

@@ -6,7 +6,7 @@ document.body.appendChild(content);
 module.exports = React.createClass({
   displayName: __filename.split('/').slice(-1)[0],
 
-  onGreatClick(evt) {
+  onClick(evt) {
     console.log('The user clicked button-1: great', evt);
   },
 
@@ -26,7 +26,7 @@ module.exports = React.createClass({
         <button
           name='button-1'
           value='great'
-          onClick={this.onGreatClick}
+          onClick={this.onClick}
         >
           Great
         </button>

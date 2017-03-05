@@ -26,6 +26,7 @@
     "validator": "5.1.0"
   },
   "devDependencies": {
-    "concurrently": "2.2.0"
+    "concurrently": "2.2.0",
+    "surge": "^0.18.0"
   }
 }
